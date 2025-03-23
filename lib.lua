@@ -74,7 +74,7 @@ local final = {
     delta = nil, 
     radians = 0, 
 
-    directory = "final Skibidi",
+    directory = "fina",
 }
 
 if not LPH_OBFUSCATED then
@@ -83,7 +83,7 @@ end
 
 -- library init
     local library = {
-        directory = "final Skibidi",
+        directory = "final",
         folders = {
             "/fonts",
             "/configs"
