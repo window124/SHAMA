@@ -50,7 +50,7 @@
     local main_event = rs:FindFirstChild("MainEvent")
 -- 
 
-local milkyboy = {
+local final = {
     target_selection = {
         player = nil, 
         time = os.clock(),
@@ -74,7 +74,7 @@ local milkyboy = {
     delta = nil, 
     radians = 0, 
 
-    directory = "MilkyBoy Skibidi",
+    directory = "final Skibidi",
 }
 
 if not LPH_OBFUSCATED then
@@ -83,7 +83,7 @@ end
 
 -- library init
     local library = {
-        directory = "MilkyBoy Skibidi",
+        directory = "final Skibidi",
         folders = {
             "/fonts",
             "/configs"
@@ -307,7 +307,7 @@ end
                 ins[_] = v
             end 
 
-            table.insert(milkyboy.drawings, ins)
+            table.insert(final.drawings, ins)
 
             return ins 
         end 
@@ -319,7 +319,7 @@ end
                 ins[_] = v
             end 
 
-            table.insert(milkyboy.instances, ins)
+            table.insert(final.instances, ins)
 
             return ins 
         end 
@@ -708,7 +708,7 @@ end
 
             -- main window
                 local holder, path = library:panel({
-                    name = properties and properties.name or "milkyboy.tech", 
+                    name = properties and properties.name or "final.tech", 
                     size = dim2(0, 500, 0, 500),
                     position = dim2(0, (camera.ViewportSize.X / 2) - 250, 0, (camera.ViewportSize.Y / 2) - 250),
                 }) 
